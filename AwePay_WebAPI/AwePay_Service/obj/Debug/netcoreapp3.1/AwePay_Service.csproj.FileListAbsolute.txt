@@ -1,0 +1,14 @@
+C:\Users\sanke\source\repos\AwePay_WebAPI\AwePay_Service\obj\Debug\netcoreapp3.1\AwePay_Service.AssemblyInfoInputs.cache
+C:\Users\sanke\source\repos\AwePay_WebAPI\AwePay_Service\obj\Debug\netcoreapp3.1\AwePay_Service.AssemblyInfo.cs
+C:\Users\sanke\source\repos\AwePay_WebAPI\AwePay_Service\obj\Debug\netcoreapp3.1\AwePay_Service.csproj.CoreCompileInputs.cache
+C:\Users\sanke\source\repos\AwePay_WebAPI\AwePay_Service\bin\Debug\netcoreapp3.1\AwePay_Service.deps.json
+C:\Users\sanke\source\repos\AwePay_WebAPI\AwePay_Service\bin\Debug\netcoreapp3.1\AwePay_Service.dll
+C:\Users\sanke\source\repos\AwePay_WebAPI\AwePay_Service\bin\Debug\netcoreapp3.1\AwePay_Service.pdb
+C:\Users\sanke\source\repos\AwePay_WebAPI\AwePay_Service\bin\Debug\netcoreapp3.1\AwePay_DataAccess.dll
+C:\Users\sanke\source\repos\AwePay_WebAPI\AwePay_Service\bin\Debug\netcoreapp3.1\AwePay_Repository.dll
+C:\Users\sanke\source\repos\AwePay_WebAPI\AwePay_Service\bin\Debug\netcoreapp3.1\AwePay_DataAccess.pdb
+C:\Users\sanke\source\repos\AwePay_WebAPI\AwePay_Service\bin\Debug\netcoreapp3.1\AwePay_Repository.pdb
+C:\Users\sanke\source\repos\AwePay_WebAPI\AwePay_Service\obj\Debug\netcoreapp3.1\AwePay_Service.csprojAssemblyReference.cache
+C:\Users\sanke\source\repos\AwePay_WebAPI\AwePay_Service\obj\Debug\netcoreapp3.1\AwePay_Service.csproj.CopyComplete
+C:\Users\sanke\source\repos\AwePay_WebAPI\AwePay_Service\obj\Debug\netcoreapp3.1\AwePay_Service.dll
+C:\Users\sanke\source\repos\AwePay_WebAPI\AwePay_Service\obj\Debug\netcoreapp3.1\AwePay_Service.pdb

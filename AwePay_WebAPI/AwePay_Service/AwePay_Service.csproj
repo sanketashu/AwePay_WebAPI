@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AwePay_DataAccess\AwePay_DataAccess.csproj" />
+    <ProjectReference Include="..\AwePay_Repository\AwePay_Repository.csproj" />
+  </ItemGroup>
+
+</Project>
