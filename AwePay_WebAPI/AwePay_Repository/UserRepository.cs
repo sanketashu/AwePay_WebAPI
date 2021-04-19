@@ -15,13 +15,19 @@ namespace AwePay_Repository
 			_awePayContext = awePayContext;
 		}
 
+		/// <summary>
+		/// Create a new User
+		/// </summary>
 		public long CreateUser(UserData newUser)
 		{
 			_awePayContext.Add(newUser);
 			_awePayContext.SaveChanges();
 			return newUser.ID;
 		}
-
+		
+		/// <summary>
+		/// Update the User
+		/// </summary>
 		public long UpdateUser(int userId, UserData updateUser)
 		{
 			var existingUser = _awePayContext.UserData.Find(userId);
@@ -38,6 +44,9 @@ namespace AwePay_Repository
 				return 0;
 		}
 
+		/// <summary>
+		/// Delete the user based on id
+		/// </summary>
 		public bool DeleteUser(int userId)
 		{
 			var user = _awePayContext.UserData.Where(u => u.ID == userId).FirstOrDefault();
@@ -51,6 +60,9 @@ namespace AwePay_Repository
 				return false;
 		}
 
+		/// <summary>
+		/// Search and cache user based on keyword
+		/// </summary>
 		public List<UserData> SearchUser(bool email, bool phone, string keyword)
 		{
 			if (email && !phone)
@@ -63,7 +75,7 @@ namespace AwePay_Repository
 			}
 			else if (email && phone)
 			{
-				return _awePayContext.UserData.Where(x => x.Email == keyword.Trim() && x.PhoneNo == keyword.Trim()).OrderBy(x => x.FullName).ToList();
+				return _awePayContext.UserData.Where(x => x.Email == keyword.Trim() || x.PhoneNo == keyword.Trim()).OrderBy(x => x.FullName).ToList();
 			}
 			else
 				return null;
